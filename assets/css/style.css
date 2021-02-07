@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Rozha One:100,200,300,400,500,600,700|Nunito:100,200,300,400,500,600,700');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Rozha One, Helvetica, sans-serif;
+}
+
+header {
+    font-size: 18px;
+    letter-spacing: 4px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../images/bg-image.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    float: left;
+    width: 25%;
+    padding-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #f5f6fa;
+    padding: 5px 20px;
+    border: 2px solid #f5f6fa;
+    border-radius: 30px;
+    transition: 0.6s ease;
+}
+
+ul li a:hover {
+    background-color: #f5f6fa;
+    color: #000;
+    text-decoration: none;
+}
+
+.intro-text {
+    color: #f5f6fa;
+}
+
+.my-profession {
+    padding-top: 200px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 45px;
+    color: #f5f6fa;
+}
+
+.fields {
+    list-style-type: none;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 100px;
+    color: #f5f6fa;
+}
+
+/* TESTIMONIALS */
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+}
+
+.testimonials {
+    padding: 40px;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+
+.inner {
+    max-width: 12000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border {
+    width: 100px;
+    height: 5px;
+    background: #82589F;
+    border: #82589F;
+    margin: 20px auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.testimonial {
+    background: #fff;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 30px;
+}
+
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testimonial p {
+    font-family: Nunito, Helvetica, sans-serif;
+}
+
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: #82589F;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:960px) {
+.col {
+    flex: 100%;
+    max-width: 80%;
+}
+}
+
+@media screen and (max-width:600px) {
+.col {
+    flex: 100%;
+    max-width: 100%;
+}
+}
+
+/* GET IN TOUCH */
+
+.bg-color-contact {
+    background-color: #82589F;
+}
+
+/* ----------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: Rozha One, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: #f5f6fa;
+}
+
+.contact-subheading {
+    font-family: Rozha One, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #f5f6fa;
+    margin-top: 35px;
+}
+
+.border-two {
+    width: 100px;
+    height: 5px;
+    background: #f5f6fa;
+    margin: 20px auto;
+}
+
+.center-form {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.form-control {
+    margin: 8px;
+    font-family: Nunito, Helvetica, sans-serif;
+    border-radius: 8px;
+}
+
+.button {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #000;
+    border: none;
+    color: #f5f6fa;
+    text-align: center;
+    font-size: 15px;
+    padding: 8px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button span {
+    font-family: Nunito, Helvetica, sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 15px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
