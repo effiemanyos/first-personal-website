@@ -6,6 +6,8 @@
     font-family: Rozha One, Helvetica, sans-serif;
 }
 
+/* ----------------------------------------HEADER SECTION */
+
 header {
     font-size: 18px;
     letter-spacing: 4px;
@@ -64,8 +66,9 @@ ul li a:hover {
 
 .fields {
     list-style-type: none;
-    padding-top: 50px;
+    padding-top: 240px;
     text-transform: uppercase;
+    font-size: 15px;
 }
 
 hr {
@@ -80,18 +83,19 @@ hr {
     color: #f5f6fa;
 }
 
-/* TESTIMONIALS */
+/* ----------------------------------------TESTIMONIALS SECTION */
 
 h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
     font-size: 40px;
+    margin-top: 5px;
 }
 
 .testimonials {
     padding: 40px;
-    background: #f1f1f1;
     color: #434343;
+    background: #f1f1f1;
     text-align: center;
 }
 
@@ -128,6 +132,8 @@ h1 {
     margin-top: 20px;
     padding: 30px;
     border-radius: 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    margin-bottom: 15px;
 }
 
 .testimonial img {
@@ -165,13 +171,11 @@ h1 {
 }
 }
 
-/* GET IN TOUCH */
+/* ----------------------------------------GET IN TOUCH SECTION */
 
 .bg-color-contact {
     background-color: #82589F;
 }
-
-/* ----------------------------------------Contact Form */
 
 .contact-heading {
     font-family: Rozha One, Helvetica, sans-serif;
@@ -191,6 +195,10 @@ h1 {
     margin-top: 35px;
 }
 
+.col p {
+    font-family: Nunito, Helvetica, sans-serif;
+}
+
 .border-two {
     width: 100px;
     height: 5px;
@@ -208,11 +216,13 @@ h1 {
     margin: 8px;
     font-family: Nunito, Helvetica, sans-serif;
     border-radius: 8px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 .button {
     display: inline-block;
     border-radius: 8px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     background-color: #000;
     border: none;
     color: #f5f6fa;
@@ -222,6 +232,7 @@ h1 {
     width: 100px;
     transition: all 0.5s;
     cursor: pointer;
+    float: right;
 }
 
 .button span {
@@ -248,4 +259,80 @@ h1 {
 .button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+/* ----------------------------------------SERVICE TYPES SECTION */
+
+.service-options {
+    box-sizing: border-box;
+    line-height: 1.5;
+    background-color: #e7e8ef;
+    color: #82589F;
+}
+
+.service-options p {
+    font-family: Nunito, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.section-padding {
+    padding: 50px 20px;
+    padding-bottom: 30px;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title h2 {
+    font-family: Rozha One, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.section-title p {
+    margin-top: 25px;
+}
+
+.feature-box {
+    gap: 15px;
+}
+
+.feature-box:not(:first-child) {
+    margin-top: 45px;
+}
+
+.feature-icon {
+    height: 48px;
+    width: 48px;
+    background-color: #82589F;
+    color: #f5f6fa;
+    flex-shrink: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.feature-content h4 {
+    font-family: Rozha One, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.feature-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-img img {
+    max-width: 290px;
+    margin-bottom: 30px;
 }
