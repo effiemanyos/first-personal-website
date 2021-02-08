@@ -100,17 +100,19 @@ h1 {
 }
 
 .inner {
-    max-width: 12000px;
+    max-width: 1140px;
     margin: auto;
     overflow: hidden;
     padding: 0 20px;
 }
 
+/* Hyphen Symbol Purple */
 .border {
     width: 100px;
     height: 5px;
     background: #82589F;
     margin: 20px auto;
+    padding-top: 10px;
 }
 
 .row {
@@ -133,6 +135,7 @@ h1 {
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     margin-bottom: 15px;
+    margin-right: 10px;
 }
 
 .testimonial img {
@@ -173,7 +176,7 @@ h1 {
 /* ----------------------------------------GET IN TOUCH SECTION */
 
 .bg-color-contact {
-    background-color: #82589F;
+    background-color: #c44569;
 }
 
 .contact-heading {
@@ -198,11 +201,13 @@ h1 {
     font-family: Nunito, Helvetica, sans-serif;
 }
 
+/* Hyphen Symbol White 2 */
 .border-two {
     width: 100px;
     height: 5px;
     background: #f5f6fa;
     margin: 20px auto;
+    padding-top: 10px;
 }
 
 .center-form {
@@ -211,27 +216,31 @@ h1 {
     max-width: 100%;
 }
 
+/* White Form */
 .form-control {
     margin: 8px;
     font-family: Nunito, Helvetica, sans-serif;
-    border-radius: 8px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
+/* Form Button */
 .button {
     display: inline-block;
-    border-radius: 8px;
+    border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     background-color: #000;
     border: none;
     color: #f5f6fa;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 15px;
-    padding: 8px;
-    width: 134px;
+    font-size: 12px;
+    padding: 10px 15px;
+    width: 140px;
     transition: all 0.5s;
     cursor: pointer;
-    float: right;
     margin-bottom: 20px;
 }
 
@@ -351,53 +360,72 @@ h1 {
     height: 80vh;*/
 }
 
+/* Hyphen Symbol White 1 */
+.border-one {
+    width: 100px;
+    height: 5px;
+    background: #f5f6fa;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
 .about-img {
     position: relative;
 }
 
 .about-img img {
-    width: 120%; 
-    margin-top: 110px;
+    width: 75%; 
+    margin-top: 120px;
+    margin-left: 90px;
+    margin-bottom: 60px;
 }
 
+/* About Me Text */
 .about-text {
     padding-top: 8%;
     padding-bottom: 12%;
+    margin-left: -15px;
 }
 
+/* About Me Title */
 .about-text h2 {
     color: #f5f6fa;
     font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 4px;
-    margin-bottom: 35px;
     margin-right: 15px;
     margin-left: 15px;
 }
 
+/* About Me Text */
 .about-text p {
     font-family: Nunito, Helvetica, sans-serif;
     color: #f5f6fa;
     font-size: 18px;
     font-weight: 300;
-    text-align: justify;
     margin-right: 15px;
     margin-left: 15px;
 }
 
+/* Learn More Button */
 .about-text a {
     font-family: Nunito, Helvetica, sans-serif;
-    background: #000;
+    text-transform: uppercase;
+    font-size: 12px;
     color: #f5f6fa;
-    padding: 7px 15px;
+    background: #000;
+    padding: 10px 30px;
     display: 20px;
-    border-radius: 8px;
+    border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     text-decoration: none;
     margin-right: 15px;
     margin-left: 15px;
 }
 
+/* Learn More Button Hover Effect */
 .about-text a:hover {
     background-color: #f5f6fa;
     color: #000;
@@ -425,13 +453,13 @@ h1 {
     font-weight: 300;
 }
 
-.segment-one h2:before {
+.segment-one h2::before {
     content: '|';
     color: #82589F;
     padding-right: 5px;
 }
 
-.segment-two h2:before {
+.segment-two h2::before {
     content: '|';
     color: #82589F;
     padding-right: 5px;
@@ -457,7 +485,16 @@ h1 {
     font-weight: 300;
 }
 
-.segment-three h2:before {
+.segment-two a::before {
+    content: "»";
+    margin-right: 10px;
+}
+
+.segment-two a:hover {
+    color: #c44569;
+}
+
+.segment-three h2::before {
     content: '|';
     color: #82589F;
     padding-right: 5px;
@@ -469,7 +506,16 @@ h1 {
     height: 35px;
     display: inline-block;
     border-radius: 50%;
-    margin-right: 3px;
+    margin-right: 8px;
+    margin-left: -2px;
+}
+
+.segment-three a:hover {
+    background: #c44569;
+}
+
+.segment-three a i:hover {
+    color: #f5f6fa;
 }
 
 .segment-three a i {
@@ -478,10 +524,21 @@ h1 {
     padding: 9px 10px;
 }
 
-.segment-four h2:before {
+.segment-four h2::before {
     content: '|';
     color: #82589F;
     padding-right: 5px;
+}
+
+.segment-four form input[type=email] {
+    border: none;
+    padding: 3px 15px;
+    margin-left: -2px;
+    margin-right: 8px;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 30px;
 }
 
 .segment-four form input[type=submit] {
@@ -491,6 +548,14 @@ h1 {
     margin-left: -5px;
     color: #f5f6fa;
     text-transform: uppercase;
+    font-size: 10px;
+    border-radius: 30px;
+}
+
+.segment-four form input[type=submit]:hover {
+    background: #c44569;
+    color: #f5f6fa;
+    font-weight: 500;
 }
 
 .footer-bottom-text {
@@ -501,10 +566,6 @@ h1 {
     font-size: 12px;
     font-weight: 300;
     color: #f5f6fa;
-}
-
-.footer-top a:hover {
-    color: #82589F;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -523,4 +584,272 @@ h1 {
         padding-top: 60px;
         padding-bottom: 25px;
     }
+}
+
+/* ----------------------------------------SKILLS SECTION */
+
+.skills-section {
+    box-sizing: border-box;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background: #f1f1f1;
+}
+
+.col-6 {
+    display: inline-block;
+}
+
+.skills-section h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #443344;
+    margin-top: 50px;
+}
+
+.skills-bar {
+    width: 530px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 25px 30px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.skills-bar .bar {
+    margin: 20px 0;
+}
+
+.skills-bar .bar:first-child {
+    margin-top: 0px;
+}
+
+.skills-bar .bar .info {
+    margin-bottom: 5px;
+}
+
+.skills-bar .bar .info span{
+    font-family: Nunito, Helvetica, sans-serif;
+    font-size: 15px;
+    opacity: 0;
+    animation: showText1 0.5s 1s linear forwards;
+}
+
+/* Symbol 1 */
+.skills-bar .bar .info span::before {
+    content: "❄";
+    margin-right: 10px;
+}
+
+@keyframes showText1 {
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Bars */
+.skills-bar .bar .progress-line {
+    position: relative;
+    height: 15px;
+    width: 100%;
+    background: #e7e8ef;
+    border-radius: 30px;
+    transform: scaleX(0);
+    transform-origin: left;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.05),
+                      0px 1px rgba(255, 255, 255, 0.08);
+    animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+.bar .progress-line span {
+    height: 100%;
+    width: 80%;
+    background: #82589F;
+    position: absolute;
+    border-radius: 30px;
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress-line.skill-1 span {
+    width: 95%;
+}
+
+.progress-line.skill-2 span {
+    width: 90%;
+}
+
+.progress-line.skill-3 span {
+    width: 80%;
+}
+
+.progress-line.skill-4 span {
+    width: 90%;
+}
+
+.progress-line.skill-5 span {
+    width: 90%;
+}
+
+.progress-line.skill-6 span {
+    width: 90%;
+}
+
+.progress-line.skill-7 span {
+    width: 90%;
+}
+
+.progress-line.skill-8 span {
+    width: 90%;
+}
+
+.progress-line.skill-9 span {
+    width: 90%;
+}
+
+.progress-line.skill-10 span {
+    width: 90%;
+}
+
+.progress-line.skill-11 span {
+    width: 90%;
+}
+
+.progress-line.skill-12 span {
+    width: 90%;
+}
+
+.progress-line.skill-13 span {
+    width: 90%;
+}
+
+.progress-line.skill-14 span {
+    width: 90%;
+}
+
+.progress-line.skill-15 span {
+    width: 90%;
+}
+
+.progress-line.skill-16 span {
+    width: 90%;
+}
+
+.bar .progress-line span::before {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: -10px;
+    height: 0;
+    width: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+/* Indicators */
+.bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -25px;
+    color: #f5f6fa;
+    font-family: Nunito, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    background: #000;
+    padding: 1px 8px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: showText2 0.5s 1.5s linear forwards;
+}
+
+@keyframes showText2 {
+    100% {
+        opacity: 1;
+    }
+}
+
+.progress-line.skill-1 span::after {
+    content: "95%";
+}
+
+.progress-line.skill-2 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-3 span::after {
+    content: "80%";
+}
+
+.progress-line.skill-4 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-5 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-6 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-7 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-8 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-9 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-10 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-11 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-12 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-13 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-14 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-15 span::after {
+    content: "90%";
+}
+
+.progress-line.skill-16 span::after {
+    content: "90%";
+}
+
+/* ----------------------------------------SERVICES FIELDS */
+
+.services-fields {
+    background: #82589F;
+    color: #f5f6fa;
 }
