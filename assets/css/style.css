@@ -1108,6 +1108,7 @@ h1 {
     width: 90px;
     border-radius: 50%;
     border: 4px solid #82589F;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
 .content {
@@ -1123,8 +1124,8 @@ h1 {
 /* ----------------------------------------WORKED WITH */
 
 .intro-work {
-    background: #82589F;
-    color: #f5f6fa;
+    background: #f1f1f1;
+    color: #434343;
     padding-top: 20px;
 }
 
@@ -1138,15 +1139,16 @@ h1 {
 
 .intro-work p {
     font-size: 18px;
+    padding-top: 10px;
     padding-bottom: 20px;
     text-align: center;
-    margin-top: 30px;
     font-family: Nunito, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: auto;
 }
 
 .wrapper {
     padding-bottom: 20px;
-    list-style-type: none;
     display: flex;
     /*position: relative;
     top: 50%;
@@ -1156,20 +1158,21 @@ h1 {
 
 .wrapper ul {
     list-style: none;
-    width: 600px;
+    width: 700px;
     margin: auto;
-    margin-top: 60px;
-    padding-bottom: 30px;
+    margin-top: 40px;
+    padding-bottom: 15px;
 }
 
 .wrapper ul li {
     width: 70px;
     height: 70px;
-    float: left;
-    margin: 0 25px;
+    display: inline-block;
+    margin: 0 21px;
     position: relative;
     cursor: pointer;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 .wrapper ul li img {
@@ -1177,19 +1180,21 @@ h1 {
     /*top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);*/
-    width:80px;
-    margin-bottom: 50px;
+    width:90px;
+    border-radius: 50%;
+    /*border: 4px solid #e7e8ef;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);*/
 }
 
 .wrapper ul li::before {
     content: attr(data-tooltip);
     width: 120px;
     height: 45px;
-    background: #fff;
-    color: #000;
+    background: #82589F;
+    color: #f5f6fa;
     position: absolute;
     top: -70px;
-    left: -25px;
+    left: -18px;
     border-radius: 8px;
     line-height: 45px;
     font-family: Nunito, Helvetica, sans-serif;
@@ -1203,10 +1208,10 @@ h1 {
     content: '';
     position: absolute;
     top: -25px;
-    left: 18px;
+    left: 27px;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 15px solid #fff;
+    border-top: 15px solid #82589F;
     border-bottom: 15px solid transparent;
     opacity: 0;
     transition: all 0.5s ease;
@@ -1216,4 +1221,10 @@ h1 {
 .wrapper ul li:hover::after {
     opacity: 1;
     transition: all 0.5s ease;
+}
+
+/* ----------------------------------------EXPERTISE */
+
+.bg-draft {
+    background: #82589F;
 }
