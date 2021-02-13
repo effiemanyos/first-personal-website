@@ -353,8 +353,8 @@ hr {
 
 /* --------------------------------------------- SERVICES BY FIELDS SECTION √ */
 
-/* SECTION STYLING */
-#services {
+/* SECTION STYLING*/ 
+.specific-services {
     background: #e7e8ef;
     padding-bottom: 50px;
 }
@@ -362,6 +362,24 @@ hr {
 /* LAYOUT SPACING */
 .services-item {
     padding: 0 8px;
+}
+
+.content-spacing .row {
+    margin-top: -20px;
+}
+
+/* INTRO TITLE */
+.section-title .section-main-title {
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+/* INTRO SUBTITLE */
+.section-title .section-subtitle {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-align: center;
 }
 
 /* SECTION ICONS */
@@ -405,7 +423,6 @@ hr {
     position: absolute;
     left: 0;
     bottom: 0;
-    color: #e7e8ef;
 }
 
 /* SPACING BETWEEN SERVICES */
@@ -450,14 +467,14 @@ hr {
 }
 
 /* ROW STYLING */
-.testimonials .row {
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 /* COLUMN STYLING */
-.testimonials .col { /* FIX 'GET IN TOUCH' FORM */
+.col { /* FIX 'GET IN TOUCH' FORM */
     flex: 33%;
     max-width: 33%;
     box-sizing: border-box;
@@ -522,19 +539,21 @@ hr {
 
 /* ----------------------------------------GET IN TOUCH SECTION */
 
+/* SECTION STYLING */
 .bg-color-contact {
     background-color: #c44569;
 }
 
+/* SECTION TITLE */
 .contact-heading {
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 4Px;
     font-size: 40px;
-    margin-top: 25px;
-    margin-bottom: 20px;
+    margin: 25px 0 20px 0;
     color: #f5f6fa;
 }
 
+/* SECTION SUBTITLE */
 .contact-subheading {
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -542,7 +561,7 @@ hr {
     margin-top: 35px;
 }
 
-/* Hyphen Symbol White 2 */
+/* HYPHEN SYMBOL WHITE 2 */
 .border-two {
     width: 100px;
     height: 5px;
@@ -552,13 +571,14 @@ hr {
     padding-top: 10px;
 }
 
+/* FORM STYLING */
 .center-form {
     padding-top: 20px;
     margin: 0 auto;
     max-width: 100%;
 }
 
-/* White Form */
+/* INNER FORM */
 .form-control {
     margin: 8px;
     font-family: Special Elite, Helvetica, sans-serif;
@@ -569,13 +589,14 @@ hr {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
+/* MAIN FORM STYLING */
 .container-fluid .row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-/* Form CTA Button */
+/* FORM CTA BUTTON */
 .button {
     display: inline-block;
     border-radius: 30px;
@@ -587,8 +608,7 @@ hr {
     text-align: center;
     letter-spacing: 1px;
     font-size: 12px;
-    padding: 8px 15px;
-    padding-top: 12px;
+    padding: 12px 20px 8px 20px;
     width: 124px;
     transition: all 0.5s;
     cursor: pointer;
@@ -619,6 +639,11 @@ hr {
 .button:hover span:after {
     opacity: 1;
     right: 0;
+}
+
+.button:hover {
+    background: #f5f6fa;
+    color: #000;
 }
 
 /* ----------------------------------------FOOTER SECTION */
@@ -1239,42 +1264,45 @@ hr {
     margin-bottom: 10px;
 }
 
-/* ----------------------------------------WORKED WITH */
+/* --------------------------------------------- WORK EXPERIENCE SECTION √ */
 
+/* SECTION STYLING */
 .intro-work {
     background: #f1f1f1;
     color: #434343;
-    padding-top: 20px;
+    padding-top: 30px;
+    place-items: center;
 }
 
+/* INTRO TITLE */
 .intro-work h2 {
     text-transform: uppercase;
-    letter-spacing: 4px;
     font-size: 40px;
+    letter-spacing: 4px;
     text-align: center;
     margin-top: 30px;
 }
 
+/* INTRO PARAGRAPH */
 .intro-work p {
-    font-size: 18px;
-    padding-top: 10px;
-    padding-bottom: 30px;
-    text-align: center;
     font-family: Special Elite, Helvetica, sans-serif;
+    font-size: 18px;
     letter-spacing: 1px;
+    text-align: center;
     max-width: 550px;
     margin: auto;
+    padding: 15px 0 30px 0;
 }
 
+/* CONTENT STYLING */
 .wrapper {
-    padding-bottom: 20px;
     display: flex;
-    /*position: relative;
-    top: 50%;
-    left: 50%; 
-    transform: translate(-50%, -50%);*/
+    padding-bottom: 30px;
+    margin: auto;
+    align-items: center;
 }
 
+/* LIST STYLING */
 .wrapper ul {
     list-style: none;
     width: 700px;
@@ -1283,28 +1311,30 @@ hr {
     padding-bottom: 15px;
 }
 
+/* COMPANIES STYLING */
 .wrapper ul li {
     width: 70px;
     height: 70px;
     display: inline-block;
-    margin: 0 21px;
+    margin: 0 21px 50px 21px; 
     position: relative;
     cursor: pointer;
-    margin-bottom: 50px;
     text-align: center;
 }
 
+/* SECTION LOGOS */
 .wrapper ul li img {
     position: relative;
-    /*top: 50%;
+    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);*/
-    width:90px;
+    transform: translate(-50%, -50%);
+    width:100px;
+    align-items: center;
     border-radius: 50%;
-    border: 3px dotted #434343;
-    /*box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);*/
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
+/* CHAT ICON STYLING */
 .wrapper ul li::before {
     content: attr(data-tooltip);
     width: 120px;
@@ -1313,7 +1343,7 @@ hr {
     color: #f5f6fa;
     position: absolute;
     top: -70px;
-    left: -18px;
+    left: -24px;
     border-radius: 8px;
     line-height: 50px;
     font-family: Special Elite, Helvetica, sans-serif;
@@ -1325,33 +1355,36 @@ hr {
     transition: all 0.5s ease;
 }
 
+/* CHAT ICON TAIL STYLING */
 .wrapper ul li::after {
     content: '';
     position: absolute;
     top: -25px;
-    left: 27px;
-    border-left: 15px solid transparent;
-    border-right: 15px solid transparent;
+    left: 20px;
     border-top: 15px solid #82589F;
+    border-right: 15px solid transparent;
     border-bottom: 15px solid transparent;
+    border-left: 15px solid transparent;
     opacity: 0;
     transition: all 0.5s ease;
 }
 
+/* HOVER EFFECT */
 .wrapper ul li:hover::before,
 .wrapper ul li:hover::after {
     opacity: 1;
     transition: all 0.5s ease;
 }
 
-/* ----------------------------------------COMMUNITIES */
+/* --------------------------------------------- COMMUNITIES SECTION √ */
 
+/* SECTION STYLING */
 .communities {
+    display: grid;
+    place-items: center;
     box-sizing: border-box;
     width: 100%;
     /*height: 100vh;*/
-    display: grid;
-    place-items: center;
     background: #82589F;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1364,6 +1397,7 @@ hr {
     max-width: 750px;
 }
 
+/* INTRO TITLE */
 .client-wrap h2 {
     font-size: 40px;
     text-transform: uppercase;
@@ -1372,6 +1406,7 @@ hr {
     letter-spacing: 4px;
 }
 
+/* INTRO PARAGRAPH */
 .client-wrap p {
     font-size: 18px;
     color: #f5f6fa;
@@ -1380,39 +1415,45 @@ hr {
     letter-spacing: 1px;
     max-width: 550px;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 60px;
+    padding: 10px 0 50px 0;
 }
 
+/* CONTENT STYLING */
 .client-in {
     width: 100%;
     height: auto;
+    padding: 0;
+    margin: 0;
 }
 
+/* LIST CONTENT STYLING */
 .client-in ul {
     padding: 0;
     margin: 0;
 }
 
+/* LIST ITEMS STYLING */
 .client-in ul li {
     list-style: none;
     display: inline-block;
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     position: relative;
     overflow: hidden;
     cursor: pointer;
-    margin: 12px; /*space between logos*/
+    margin: 7px; /*space between logos*/
     margin-bottom: 5px;
     transition: .5s;
 }
 
+/* LOGOS STYLING */
 .client-in ul li img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    border: 3px dotted #e7e8ef;
 }
+
+/* HOVER EFFECT */
 
 .client-in ul li img:nth-child(1) {
     transform: translateY(0);
@@ -1424,8 +1465,6 @@ hr {
     transition: .5s;
 }
 
-/* Hover Section */
-
 .client-in ul li:hover img:nth-child(1) {
     transform: translateY(-100%);
     transition: .5s;
@@ -1434,4 +1473,112 @@ hr {
 .client-in ul li:hover img:nth-child(2) {
     transform: translateY(-100%);
     transition: .5s;
+}
+
+/* ---------------------------------------- RECOMMENDED BOOKS SECTION */
+
+.books-section {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    background: #f1f1f1;
+    overflow: hidden;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.card-image {
+    grid-area: image;
+    background: url(../images/inspired-img.png);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card-text {
+    grid-area: text;
+    margin: 25px;
+}
+
+.card-text .author {
+    color: #434343;
+    font-size: 16px;
+}
+
+.card-text h3 {
+    color: #82589F;
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 2px;
+    margin-top: 2px;
+}
+
+.card-text p {
+    color: #434343;
+    font-family: Special Elite, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.card-stats {
+    grid-area: stats;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #82589F;
+    font-family: Special Elite, Helvetica, sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-align: center;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
+}
+
+.card-stats .stat1, .stat2, .stat3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #f5f6fa;
+}
+
+.card-stats .value {
+    font-size: 20px;
+}
+
+.card-stats a {
+    text-decoration: none;
+    color: #f5f6fa;
+}
+
+.card-stats .stat1:hover {
+    background: #000;
+    color: #f5f6fa;
+    border-bottom-left-radius: 15px;
+}
+
+.card-stats .stat2:hover {
+    background: #000;
+    color: #f5f6fa;
+}
+
+.card-stats .stat3:hover {
+    background: #000;
+    color: #f5f6fa;
+    border-bottom-right-radius: 15px;
 }
