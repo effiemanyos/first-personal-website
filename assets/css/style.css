@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Neucha:100,200,300,400,500,600,700|Special Elite:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Neucha:100,200,300,400,500,600,700|Roboto:100,200,300,400,500,600,700');
 
 * {
     margin: 0;
@@ -275,8 +275,7 @@ hr {
 
 /* About Me Text */
 .about-text p {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     color: #f5f6fa;
     font-size: 18px;
     font-weight: 300;
@@ -286,8 +285,7 @@ hr {
 
 /* Learn More Button */
 .about-text a {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     color: #f5f6fa;
@@ -329,9 +327,8 @@ hr {
 /* INTRO PARAGRAPH */
 .section-title p {
     margin-top: 25px;
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
 }
 
 /* SECTION SUBTITLES */
@@ -345,8 +342,7 @@ hr {
 
 /* ROW PARAGRAPHS */
 .feature-content p {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0px;
 }
@@ -425,8 +421,7 @@ hr {
 /* INTRO PARAGRAPH */
 .services p {
     max-width: 550px;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
     margin: 30px auto 0;
@@ -462,8 +457,7 @@ hr {
 
 /* BOX PARAGRAPHS */
 .service-box p {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     color: #82589F;
 }
 
@@ -547,8 +541,7 @@ hr {
 /* SECTION PARAGRAPHS */
 .services-single-item p {
     font-size: 16px;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     margin-top: 15px;
 }
 
@@ -650,8 +643,7 @@ hr {
 
 /* SECTION PARAGRAPH */
 .testimonial p {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -730,8 +722,7 @@ hr {
 /* INNER FORM */
 .form-control {
     margin: 8px;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 12px;
     text-transform: uppercase;
     border-radius: 10px;
@@ -755,7 +746,6 @@ hr {
     color: #f5f6fa;
     text-transform: uppercase;
     text-align: center;
-    letter-spacing: 1px;
     font-size: 12px;
     padding: 12px 20px 8px 20px;
     width: 124px;
@@ -765,7 +755,7 @@ hr {
 }
 
 .button span {
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -812,8 +802,7 @@ hr {
 .footer-top p, form {
     color: #f5f6fa;
     line-height: 20px;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 300;
 }
@@ -843,8 +832,7 @@ hr {
 }
 
 .segment-two ul li a {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     color: #f5f6fa;
     text-decoration: none;
     font-size: 15px;
@@ -930,8 +918,7 @@ hr {
     text-align: center;
     background: #252525;
     line-height: 50px;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 12px;
     font-weight: 300;
     color: #f5f6fa;
@@ -1002,7 +989,7 @@ hr {
 }
 
 .skills-bar .bar .info span{
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 15px;
     opacity: 0;
     animation: showText1 0.5s 1s linear forwards;
@@ -1321,8 +1308,7 @@ hr {
 }
 
 .intro-timeline p {
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     text-align: center;
     font-size: 18px;
     margin-top: 30px;
@@ -1353,9 +1339,8 @@ hr {
 
 .content p {
     font-size: 15px;
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     line-height: 1.3;
-    letter-spacing: 1px;
 }
 
 .timeline-body {
@@ -1434,9 +1419,8 @@ hr {
 
 /* INTRO PARAGRAPH */
 .intro-work p {
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 18px;
-    letter-spacing: 1px;
     text-align: center;
     max-width: 550px;
     margin: auto;
@@ -1495,8 +1479,7 @@ hr {
     left: -24px;
     border-radius: 8px;
     line-height: 50px;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 13px;
     text-align: center;
@@ -1560,8 +1543,7 @@ hr {
     font-size: 18px;
     color: #f5f6fa;
     text-align: center;
-    font-family: Special Elite, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    font-family: Roboto, Helvetica, sans-serif;
     max-width: 550px;
     margin: auto;
     padding: 10px 0 50px 0;
@@ -1678,9 +1660,8 @@ hr {
 
 .card-text p {
     color: #434343;
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
 }
 
 .card-stats {
@@ -1691,9 +1672,8 @@ hr {
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     background: #82589F;
-    font-family: Special Elite, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
     text-align: center;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
