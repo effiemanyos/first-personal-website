@@ -115,6 +115,7 @@ label #cancel {
     display: none;
 }
 
+/**
 @media (max-width: 1000px) {
     nav #social-media {
         display: none;
@@ -150,7 +151,7 @@ label #cancel {
         font-size: 20px;
     }
 }
-
+**/
 
 
 
@@ -290,8 +291,8 @@ hr {
     font-size: 12px;
     color: #f5f6fa;
     background: #000;
-    padding: 10px 20px;
-    display: 20px;
+    padding: 10px 25px;
+    display: inline-block;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     text-decoration: none;
@@ -422,7 +423,7 @@ hr {
 .services p {
     max-width: 550px;
     font-family: Roboto, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     margin: 30px auto 0;
 }
@@ -634,10 +635,9 @@ hr {
 
 /* SECTION IMAGES */
 .testimonial img {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
-    border: 3px dotted #82589F;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
 }
 
