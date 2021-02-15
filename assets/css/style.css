@@ -226,20 +226,19 @@ hr {
     color: #f5f6fa;
 }*/
 
-/* --------------------------------------------- ABOUT ME SECTION */
+/* --------------------------------------------- WHO AM I SECTION √ */
 
-.about-area {
-    padding-top: 10px;
-    background-color: #82589F;
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../images/bg-working.jpg);
+/* SECTION STYLING */
+.about-section {
+    background-image: linear-gradient(rgba(196, 69, 105, 0.90), rgba(130, 88, 159, 0.90)), url(../images/about-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    height: 80vh;*/
+    padding-top: 20px;
 }
 
-/* Hyphen Symbol White 1 */
+/* HYPHEN SYMBOL WHITE */
 .border-one {
     width: 100px;
     height: 5px;
@@ -248,23 +247,14 @@ hr {
     padding-top: 10px;
 }
 
-.about-img {
-    position: relative;
-}
-
-.about-img img {
-    width: 75%; 
-    margin: 120px 0 60px 90px;
-}
-
-/* About Me Text */
+/* LEFT COLUMN */
 .about-text {
     padding-top: 8%;
     padding-bottom: 12%;
     margin-left: -15px;
 }
 
-/* About Me Title */
+/* SECTION TITLE */
 .about-text h2 {
     color: #f5f6fa;
     font-size: 40px;
@@ -274,7 +264,7 @@ hr {
     margin-left: 15px;
 }
 
-/* About Me Text */
+/* SECTION PARAGRAPH */
 .about-text p {
     font-family: Roboto, Helvetica, sans-serif;
     color: #f5f6fa;
@@ -284,29 +274,28 @@ hr {
     margin-left: 15px;
 }
 
-/* Learn More Button */
+/* SECTION BUTTON */
 .about-text a {
     font-family: Roboto, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 12px;
     color: #f5f6fa;
     background: #000;
-    padding: 10px 25px;
+    padding: 12px 25px 10px 25px;
     display: inline-block;
     border-radius: 30px;
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.08);
     text-decoration: none;
-    margin-right: 15px; /* FIX MARGIN HERE*/
-    margin-left: 15px;
+    margin: 0 15px;
 }
 
-/* Learn More Button Hover Effect */
+/* BUTTON HOVER EFFECT */
 .about-text a:hover {
     background-color: #f5f6fa;
     color: #000;
 }
 
-/* --------------------------------------------- SERVICES TYPES SECTION √ */
+/* --------------------------------------------- HOW CAN I HELP SECTION √ */
 
 /* SECTION STYLING */
 .service-options {
@@ -396,13 +385,18 @@ hr {
     margin: 55px 0 55px 0;
 }
 
-/* --------------------------------------------- SERVICES FIELDS SECTION √ */
+/* --------------------------------------------- WHAT I DO SECTION √ */
 
 /* SECTION STYLING */
 .services-fields {
-    background: #82589F;
     color: #f5f6fa;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
+    background-image: linear-gradient(rgba(196, 69, 105, 0.90), rgba(130, 88, 159, 0.90)), url(../images/about-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding-top: 20px;
 }
 
 /* INTRO STYLING */
