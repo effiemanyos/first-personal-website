@@ -246,7 +246,7 @@ hr {
 
 /* SECTION STYLING */
 .about-section {
-    background-image: linear-gradient(rgba(196, 69, 105, 0.98), rgba(130, 88, 159, 0.98)), url(../images/testing-bg.jpeg);
+    background-image: linear-gradient(rgba(196, 69, 105, 0.95), rgba(130, 88, 159, 0.95)), url(../images/about-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -1556,6 +1556,7 @@ hr {
     color: #f5f6fa;
     text-align: center;
     font-family: Poppins, Helvetica, sans-serif;
+    letter-spacing: 1px;
     max-width: 550px;
     margin: auto;
     padding: 10px 0 50px 0;
