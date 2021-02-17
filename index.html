@@ -15,43 +15,69 @@
 <body>
 
     <!-- HEADER -->
-    <header>
-        <div class="menu-bar">
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check">
-                    <i class="fa fa-align-justify" id="btn"></i>
-                    <i class="fa fa-times" id="cancel"></i>
-                </label>
-                <!--<img src="assets/images/effie_signature.png" alt="">-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Effie Manyos</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarFour"
+            aria-controls="navbarFour" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarFour">
 
-                <ul id="social-media">
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                </ul>
+            <!-- Main Website Menu-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"><i class="fa fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html"><i class="fa fa-user-circle-o"></i> About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html"><i class="fa fa-heart"></i> Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="training.html"><i class="fa fa-graduation-cap"></i> Training</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><i class="fa fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
 
-                <ul id="main-menu">
-                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="about.html"><i class="fa fa-user-circle-o"></i> About</a></li>
-                    <li><a href="services.html"><i class="fa fa-list"></i> Services</a></li>
-                    <li><a href="training.html"><i class="fa fa-graduation-cap"></i> Training</a></li>
-                    <li><a href="resources.html"><i class="fa fa-book"></i> Resources</a></li>
-                    <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
-                </ul>
-            </nav>
+            <!-- Social Media Menu-->
+            <ul class="navbar-nav ml-auto nav-social">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.linkedin.com/" target="_blank"><i
+                            class="fa fa-linkedin"></i><span class="sr-only">LinkedIn</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com/" target="_blank"><i
+                            class="fa fa-instagram"></i><span class="sr-only">Instagram</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com/" target="_blank"><i
+                            class="fa fa-facebook"></i><span class="sr-only">Facebook</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i><span
+                            class="sr-only">Twitter</span></a>
+                </li>
+            </ul>
         </div>
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1>I am John Doe</h1>
-                <p>And I'm a Photographer</p>
-                <button>Hire me</button>
-            </div>
-        </div>
-    </header>
+    </nav>
 
-    <!-- ABOUT ME -->
+    <!-- HERO IMAGE -->
+    <section>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>Welcome to my website</h1>
+            <br>
+            <p>Consultant | Strategist | Entrepreneur | Mentor | Speaker</p>
+            <br>
+            <button type="button" class="btn btn-m btn-light">Learn More</button>
+        </div>
+    </div>
+    </section>
+
+    <!-- ABOUT ME - WHO AM I -->
     <section class="about-section">
         <div class="container">
 
@@ -59,7 +85,7 @@
 
                 <div class="col-sm-8">
                     <div class="about-text">
-                        <h2>About Me</h2>
+                        <h2>Who AM I</h2>
                         <div class="border-one"></div>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -249,7 +275,7 @@
     <section>
         <div class="testimonials">
             <div class="inner">
-                <h1>Testimonials</h1>
+                <h2>Testimonials</h2>
                 <div class="border"></div>
 
                 <div class="row">
