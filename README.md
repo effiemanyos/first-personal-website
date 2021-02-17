@@ -188,13 +188,22 @@ The following technology was used during the development and testing of this pro
 - **HTML5** to structure each page.
 - **CSS3** to style the elements within each page.
 
-### **Software Development**
-- **GitHub** → https://github.com/
-- CSS: **CSS Tricks** → https://css-tricks.com/
-- CSS/HTML: **W3Schools** → www.w3schools.com
+### **Workspaces, Version Control, Respository Hosting**
+- Store Repositories: **GitHub** → https://github.com/
+- Main Workspace: **Gitpod** → https://www.gitpod.io/
+- Version Control: **Git** → https://git-scm.com/
 
 ### **Frameworks & Libraries**
-- **Bootstrap V4.2.1** → https://getbootstrap.com/
+- Frameworks: **Bootstrap V4.2.1** → https://getbootstrap.com/
+- Fonts: **Google Fonts** → https://fonts.google.com/
+- Icons: **Font Awesome V4.7.0** → https://fontawesome.com/v4.7.0/icons/
+
+### **Development Proccess**
+- CSS: **CSS Tricks** → https://css-tricks.com/
+- CSS/HTML: **W3Schools** → www.w3schools.com
+- Beautify HTML → **[Web Formatter](https://webformatter.com/html)**
+- Beautify CSS → **[Free Formatter](https://www.freeformatter.com/css-beautifier.html)**
+- Hex to RGB → **[RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)**
 
 ### **Testing**
 - Test/Fix Code: **Chrome DevTools** → https://developers.google.com/web/tools/chrome-devtools
@@ -205,16 +214,15 @@ The following technology was used during the development and testing of this pro
 
 ### **Other Technology**
 - Mockup: **Responsive Design** → http://ami.responsivedesign.is/
-- Icons: **Font Awesome V4.7.0** → https://fontawesome.com/v4.7.0/icons/
+- Mockup: **Techsini Mockup Generator** → http://techsini.com/multi-mockup/
 - Unicode: **Cool Symbol** → https://coolsymbol.com/
 - Illustrations: **UnDraw** → https://undraw.co/
 - Photography: **Unsplashed** → https://unsplash.com/
-- Fonts: **Google Fonts** → https://fonts.google.com/
-- Wireframes: **Balsamiq** → https://balsamiq.com/
+- Wireframing: **Balsamiq** → https://balsamiq.com/
 - Planning: **Miro** → https://miro.com/
 - Visuals: **Canva** → https://www.canva.com/
-- Colour Scheme: **Coolors** → https://coolors.co/
-
+- Colour Scheme → **[Coolors](https://coolors.co/)**
+- Shapes & Diagrams → **[Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)**
 
 # **Credits** 
 
@@ -224,6 +232,8 @@ The following technology was used during the development and testing of this pro
 - Wonsulting → https://wonsulting.com/
 
 ### **Media**
+
+<ins>**Communities Section:**</ins>
 - [JCI Ireland](https://www.jciireland.ie/) Logo
 - [ThePowerMBA](https://thepowermba.com/) Logo
 - [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo
@@ -234,3 +244,19 @@ The following technology was used during the development and testing of this pro
 - [Code Institute](https://codeinstitute.net/) Logo
 - [Women in Tech](https://women-in-tech.net/) Logo
 - [Up She Rises](https://upsherises.ie/) Logo
+
+<ins>**Work Experience Section:**</ins>
+- [ArchHyve](https://archhyve.com/) Logo
+- [Ardagh Agencies](https://www.ardaghagencies.ie/) Logo
+- [ISG Contract](https://www.isgcontract.com/) Logo
+- [PeggyRain](https://peggyrain.com/) Logo
+- [Translit](https://translit.ie/) Logo
+- [Keysight Technologies](https://www.keysight.com/) Logo
+- [Citigroup](https://www.citigroup.com/citi/) Logo
+- [Banco de Credito BCP](https://www.viabcp.com/) Logo
+- [SocMark](https://www.linkedin.com/company/socmark/) Logo
+- [Publicidad Causa](http://pi-ar.com.pe/el-reto-de-las-agencias-de-hoy-conseguir-clientes-al-mismo-costo/) Logo
+
+<ins>**Qualifications Section:**</ins>
+- [Universitat de Barcelona](https://www.ub.edu/) Logo
+- 
