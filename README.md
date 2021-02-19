@@ -2,7 +2,7 @@
 
 Static website to promote my services, increase my online presence and build a solid personal branding. This project is the first milestone in obtaining a [Full Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) diploma from [Code Institute](https://codeinstitute.net/).
 
-![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different size devices")
+![the webpage on different devices](./assets/images/mockup-img.png "the webpage on different devices")
 
 # **Content**  
 
@@ -171,13 +171,93 @@ Concerned with requirements and functional specifications. What features, based 
 
 ## **1.3. Structure Plane** 
 
-How is the information structured and how is it logically grouped, the features, the elements, the data, the information?  It's concerned with categories of information and addresses the way information is presented, how the information is organized.
+The current structure of the website is the following:
+
+|HOME|ABOUT|SERVICES|TRAINING|CONTACT|
+|--|----|-----|---|---|
+|About Me |G3|DSJJH|DSJJH|
+|How Can I Help|G3|DSJJH|DSJJH|
+|What I Do|G3|DSJJH|DSJJH|
+|Testimonials|G3|DSJJH|DSJJH|
+|Contact Me|G3|DSJJH|DSJJH|
+|Footer|G3|DSJJH|DSJJH|
+
+At the moment, the website consists in only one page containing various sections shown one under the other.
+
+The **intended structure** of the website for the **MVP** was the following:
+
+|HOME|ABOUT|SERVICES|TRAINING|CONTACT|
+|---|---|---|---|---|
+|About Me |About Me|How Can I Help (*)|DSJJH||---|
+|How Can I Help (*)|Expertise|What I Do (**)|DSJJH|
+|What I Do (**)|Work Experience|Digital Marketing|DSJJH|
+|Testimonials|Qualifications|Product Management|DSJJH|
+|SECTION|Hard Skills|Entrepreneurship|DSJJH|
+|Contact Me|Contact Me|Contact Me|DSJJH|
+|Footer|Footer|Footer|DSJJH|
+
+(*) Services Types
+(**) Services Fields
+
+Unfortunately, the **scope** had to be reduced and adjusted due to the lack of resources, which the most important was **time**, and then **knowledge** to develop some sections and complex features.
+
+The sections that will be added in the near future are the following:
+
+|HOME|ABOUT|SERVICES|TRAINING|CONTACT|
+|--|----|-----|---|---|
+|About Me |G3|DSJJH|DSJJH||---|
+|How Can I Help|G3|DSJJH|DSJJH|
+|What I Do|G3|DSJJH|DSJJH|
+|Testimonials|G3|DSJJH|DSJJH|
+|Contact Me|G3|DSJJH|DSJJH|
+|Footer|G3|DSJJH|DSJJH|
 
 ## **1.4. Skeleton Plane** 
 
-How is
+### **Wireframes**
 
+- **Mobile**
+- **Tablet**
+- **Desktop**
 
+## **1.5. Surface Plane** 
+
+### **Typography**
+
+Only two fonts were used for this project.
+
+- **[Neucha](https://fonts.google.com/specimen/Neucha?query=Neucha&preview.text_type=custom)**, designed by Jovanny Lemonad, for all titles and subtitles.  
+- **[Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins&preview.text_type=custom)**, designed by Indian Type Foundry, Jonny Pinhorn, for all paragraphs.
+- Logo¿?
+
+### **Colours**
+
+According to an article on **[The Science of Colour Persuasion](https://idealogicbrandlab.com/color-persuasion/)** by **IDealogic® Brand Lab**:
+
+Colour establishes **brand recognition** amongst consumers, therefore it is crucial that the same colours are always used across all channels, such as website, social media, advertising, product packaging, merchandising, etc.
+
+The following are the colours used for this project:
+
+![the website and brand colour palette](./assets/images/color-scheme.png "the website and brand colour palette")
+
+**Primary Colours:**
+> - **Purple** → Associated with **wisdom, wealth, spirituality, imaginative, and sophistication**.
+> - **Black** → Associated with **sophistication, luxury, security, power, elegance, authority, and substance**.
+> - **Green** → Associated with **health, tranquility, growth, freshness, prosperity, hope, balance, harmony, and nature**.
+> - **Pink** → Associated with femininity. **Imaginative, passionate, caring, creativity, innovative, quirky**. 
+
+### **Imagery**
+
+Illustrations from **[UnDraw](https://undraw.co/)** have been used to improve the UX. These illustrations have been modified to match the website and brand colours.
+
+When ready, professional photos will be added to the website in various sections. Some of the images will come from:
+- Workshops
+- Events
+- Webinars
+- Collaborations
+- Owner's Promotional Photos
+
+At the moment, the imagery used is for academic purposes to meet the project deadline. These images will be replaced before the launch of the website.
 
 # **Technologies Used** 
 
@@ -199,8 +279,8 @@ The following technology was used during the development and testing of this pro
 - Icons: **Font Awesome V4.7.0** → https://fontawesome.com/v4.7.0/icons/
 
 ### **Development Proccess**
-- CSS: **CSS Tricks** → https://css-tricks.com/
-- CSS/HTML: **W3Schools** → www.w3schools.com
+- CSS → **[CSS Tricks](https://css-tricks.com/)**
+- CSS/HTML → **[W3Schools](www.w3schools.com)**
 - Beautify HTML → **[Web Formatter](https://webformatter.com/html)**
 - Beautify CSS → **[Free Formatter](https://www.freeformatter.com/css-beautifier.html)**
 - Hex to RGB → **[RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)**
@@ -217,7 +297,7 @@ The following technology was used during the development and testing of this pro
 - Mockup: **Techsini Mockup Generator** → http://techsini.com/multi-mockup/
 - Unicode: **Cool Symbol** → https://coolsymbol.com/
 - Illustrations: **UnDraw** → https://undraw.co/
-- Photography: **Unsplashed** → https://unsplash.com/
+- Photography → **[Unsplash](https://unsplash.com/)**
 - Wireframing: **Balsamiq** → https://balsamiq.com/
 - Planning: **Miro** → https://miro.com/
 - Visuals: **Canva** → https://www.canva.com/
@@ -233,7 +313,29 @@ The following technology was used during the development and testing of this pro
 
 ### **Media**
 
-<ins>**Communities Section:**</ins>
+**'Hero Image' Section:**
+- [Background Image](https://www.jciireland.ie/) by XXXX taken from [Unsplash](https://unsplash.com/)
+
+**'Who Am I' Section:**
+- [Background Image](https://www.jciireland.ie/) by XXXX taken from [Unsplash](https://unsplash.com/)
+- https://unsplash.com/photos/73FOXT1DvjI
+- https://unsplash.com/photos/sCYqkY_Lmpo
+- https://unsplash.com/photos/Yrqyn1Gb80k
+- https://unsplash.com/photos/4hMET7vYTAQ
+- https://unsplash.com/photos/lvowu4IK6Mc
+- https://unsplash.com/photos/hZFXVjeS73A
+- https://unsplash.com/photos/mZKEIRBStv4
+- https://unsplash.com/photos/Ef32LHjkw64
+- https://unsplash.com/photos/9OmvI29U8bk
+- https://unsplash.com/photos/zs8bpXW3OuM
+- https://unsplash.com/photos/sDRNwsezLU8
+- https://unsplash.com/photos/WVC6iAZHP0k
+- https://unsplash.com/photos/dZgMUPACJzQ
+
+**'How Can I Help You' Section:**
+- Illustration taken from [UnDraw](https://undraw.co/) and modified to match the brand colours.
+
+**'Communities' Section:**
 - [JCI Ireland](https://www.jciireland.ie/) Logo
 - [ThePowerMBA](https://thepowermba.com/) Logo
 - [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo
@@ -245,7 +347,7 @@ The following technology was used during the development and testing of this pro
 - [Women in Tech](https://women-in-tech.net/) Logo
 - [Up She Rises](https://upsherises.ie/) Logo
 
-<ins>**Work Experience Section:**</ins>
+**'Work Experience' Section:**
 - [ArchHyve](https://archhyve.com/) Logo
 - [Ardagh Agencies](https://www.ardaghagencies.ie/) Logo
 - [ISG Contract](https://www.isgcontract.com/) Logo
@@ -257,6 +359,8 @@ The following technology was used during the development and testing of this pro
 - [SocMark](https://www.linkedin.com/company/socmark/) Logo
 - [Publicidad Causa](http://pi-ar.com.pe/el-reto-de-las-agencias-de-hoy-conseguir-clientes-al-mismo-costo/) Logo
 
-<ins>**Qualifications Section:**</ins>
+**'Qualifications' Section:**
 - [Universitat de Barcelona](https://www.ub.edu/) Logo
 - 
+
+Photos of the testimonials section¿?
