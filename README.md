@@ -2,6 +2,11 @@
 
 **ADD LOGO + INTRODUCTION ABOUT PROJECT**
 
+PROJECT DESCRIPTION & INTRODUCTION:
+- Briefly introduce the project
+- What's the motivation behind creating it
+- What does it aim to solve and for whom
+
 Static website to promote my services, increase my online presence and build a solid personal branding. This project is the first milestone in obtaining a [Full Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) diploma from [Code Institute](https://codeinstitute.net/).
 
 # **Content**  
@@ -393,14 +398,14 @@ The following technology was used during the development and testing of this pro
 - **CSS3** to style the elements within each page.
 
 ### **Workspaces, Version Control, Respository Hosting**
-- Store Repositories: **GitHub** → https://github.com/
-- Main Workspace: **Gitpod** → https://www.gitpod.io/
-- Version Control: **Git** → https://git-scm.com/
+- Store Repositories → **[GitHub](https://github.com/)**
+- Main Workspace → **[Gitpod](https://www.gitpod.io/)**
+- Version Control → **[Git](https://git-scm.com/)**
 
 ### **Frameworks & Libraries**
-- Frameworks: **Bootstrap V4.2.1** → https://getbootstrap.com/
-- Fonts: **Google Fonts** → https://fonts.google.com/
-- Icons: **Font Awesome V4.7.0** → https://fontawesome.com/v4.7.0/icons/
+- Frameworks → **[Bootstrap V4.2.1](https://getbootstrap.com/)**
+- Fonts → **[Google Fonts](https://fonts.google.com/)**
+- Icons → **[Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)**
 
 ### **Development Proccess**
 - CSS Tricks → **[CSS Tricks](https://css-tricks.com/)**
@@ -410,21 +415,21 @@ The following technology was used during the development and testing of this pro
 - Hex to RGB → **[RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)**
 
 ### **Testing**
-- Test/Fix Code: **Chrome DevTools** → https://developers.google.com/web/tools/chrome-devtools
-- Website Responsiveness: **Responsive viewer** → https://www.producthunt.com/posts/responsive-viewer
-- Website Performance: **Google Lighthouse** → https://developers.google.com/web/tools/lighthouse
-- Validate HTML: **W3C HTML Validator** → https://validator.w3.org/
-- Validate CSS: **W3C CSS Validator** → https://jigsaw.w3.org/css-validator/
+- Test/Fix Code → **[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)**
+- Website Responsiveness → **[Responsive viewer](https://www.producthunt.com/posts/responsive-viewer)**
+- Website Performance → **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
+- Validate HTML → **[W3C HTML Validator](https://validator.w3.org/)**
+- Validate CSS → **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
 
 ### **Other Technology**
-- Mockup: **Responsive Design** → http://ami.responsivedesign.is/
-- Mockup: **Techsini Mockup Generator** → http://techsini.com/multi-mockup/
-- Unicode: **Cool Symbol** → https://coolsymbol.com/
-- Illustrations: **UnDraw** → https://undraw.co/
+- Mockup → **[Responsive Design](http://ami.responsivedesign.is/)**
+- Mockup → **[Techsini Mockup Generator](http://techsini.com/multi-mockup/)**
+- Unicode → **[Cool Symbol](https://coolsymbol.com/)**
+- Illustrations → **[UnDraw](https://undraw.co/)**
 - Photography → **[Unsplash](https://unsplash.com/)**
-- Wireframing: **Balsamiq** → https://balsamiq.com/
-- Planning: **Miro** → https://miro.com/
-- Visuals: **Canva** → https://www.canva.com/
+- Wireframing → **[Balsamiq](https://balsamiq.com/)**
+- Planning → **[Miro](https://miro.com/)**
+- Visuals → **[Canva](https://www.canva.com/)**
 - Colour Scheme → **[Coolors](https://coolors.co/)**
 - Shapes & Diagrams → **[Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)**
 
@@ -441,9 +446,10 @@ The entire **testing process** and **results** can be found here.
 # **Credits** 
 
 ### **Inspiration**
-- Sian Horn Website → https://sianhorn.com/
-- Dana Fuelles → https://danafuelles.coach/
-- Wonsulting → https://wonsulting.com/
+- [Sian Horn](https://sianhorn.com/)
+- [Dana Fuelles](https://danafuelles.coach/)
+- [Wonsulting](https://wonsulting.com/)
+- [Awwwards.](https://www.awwwards.com/)
 
 ### **Code**
 
@@ -474,19 +480,7 @@ The entire **testing process** and **results** can be found here.
 - https://unsplash.com/photos/dZgMUPACJzQ
 
 **'How Can I Help' Section:**
-- Illustration taken from [UnDraw](https://undraw.co/) and modified to match the brand colours.
-
-**'Communities' Section:**
-- [JCI Ireland](https://www.jciireland.ie/) Logo
-- [ThePowerMBA](https://thepowermba.com/) Logo
-- [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo
-- [Sian Horn | The Club](https://sianhorn.com/) Logo
-- [IPMG](https://www.linkedin.com/company/irish-product-management-group/) Logo
-- [Product School](https://www.productschool.com/) Logo
-- [Product Buds](https://productbuds.co/) Logo
-- [Code Institute](https://codeinstitute.net/) Logo
-- [Women in Tech](https://women-in-tech.net/) Logo
-- [Up She Rises](https://upsherises.ie/) Logo
+- Illustration taken from [UnDraw](https://undraw.co/) and modified to match the website and brand colours.
 
 **'Work Experience' Section:**
 - [ArchHyve](https://archhyve.com/) Logo
@@ -502,6 +496,24 @@ The entire **testing process** and **results** can be found here.
 
 **'Qualifications' Section:**
 - [Universitat de Barcelona](https://www.ub.edu/) Logo
-- 
+- [Wharton | University of Pennsylvania](https://www.wharton.upenn.edu/) Logo
+- [University of Alberta](https://www.ualberta.ca/) Logo
 
-Photos of the testimonials section¿?
+**'Communities' Section:**
+- [JCI Ireland](https://www.jciireland.ie/) Logo
+- [ThePowerMBA](https://thepowermba.com/) Logo
+- [Growth Hacking Course](https://www.growthhackingcourse.io/) Logo
+- [Sian Horn | The Club](https://sianhorn.com/) Logo
+- [IPMG](https://www.linkedin.com/company/irish-product-management-group/) Logo
+- [Product School](https://www.productschool.com/) Logo
+- [Product Buds](https://productbuds.co/) Logo
+- [Code Institute](https://codeinstitute.net/) Logo
+- [Women in Tech](https://women-in-tech.net/) Logo
+- [Up She Rises](https://upsherises.ie/) Logo
+- [Digital Marketing Institute](https://digitalmarketinginstitute.com/) Logo
+- [Universidad de Lima](https://www.ulima.edu.pe/en) Logo
+
+**'Testimonials' Section:**
+- [Portrait 1](https://unsplash.com/photos/X6Uj51n5CE8) by [Austin Wade](https://unsplash.com/@austin_wade) taken from [Unsplash](https://unsplash.com/)
+- [Portrait 2](https://unsplash.com/photos/iFgRcqHznqg) by [Joseph Gonzalez](https://unsplash.com/@miracletwentyone) taken from [Unsplash](https://unsplash.com/)
+- [Portrait 3](https://unsplash.com/photos/rriAI0nhcbc) by [Jack Finnigan](https://unsplash.com/@jackofallstreets) taken from [Unsplash](https://unsplash.com/)
