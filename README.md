@@ -9,33 +9,7 @@ PROJECT DESCRIPTION & INTRODUCTION:
 
 Static website to promote my services, increase my online presence and build a solid personal branding. This project is the first milestone in obtaining a [Full Stack Web Development](https://codeinstitute.net/full-stack-software-development-diploma/) diploma from [Code Institute](https://codeinstitute.net/).
 
-# **Content**  
-
-[1. Demo](# "1. Demo")
-
-[2. Introduction](# "2. Introduction")
-
-[3. UX Design](# "3. UX Design")
-
- - [3.1. Strategy Plane](# "3.1. Strategy Plane")
-
- - [3.2. Scope Plane](# "3.2. Scope Plane")
-
- - [3.3. Structure Plane](# "3.3. Structure Plane")
-
- - [3.4. Skeleton Plane](# "3.4. Skeleton Plane")
-
- - [3.5. Surface Plane](# "3.5. Surface Plane")
-
-[4. Technologies Used](# "4. Technologies Used")
-
-[5. Testing](# "5. Testing")
-
-[6. Deployment](# "6. Deployment")
-
-[7. Credits](# "7. Credits")
-
-[8. Acknowledgments](# "8. Acknowledgments")
+-------
 
 # **Demo**  
 
@@ -72,7 +46,7 @@ These are some crucial **user pain points** worth mentioning:
 - **Lack of ideas** on how to grow a business under a tight budget.
 - **Lack of structure** in our processes which lead us to negative outcomes. 
 
-### **What are they looking for?**
+### **Assumptions: What Are They Looking For?**
 - Consulting
 - Training
 - Strategy
@@ -88,9 +62,9 @@ These are some crucial **user pain points** worth mentioning:
 - Free Resources (+Recommendations)
 - Networking
 
-This list sums up to → **GROW** or **LAUNCH** their businesses or even **GROW** professionally. These are just asumptions that still need to be validated.
+This list sums up to → **GROW** or **LAUNCH** their businesses or even **GROW** professionally. These are just assumptions that still need to be validated.
 
-### **Site Owner's Goals (Business Goals):**
+### **Site Owner's Goals (Biz Goals):**
 - Build my personal branding
 - Develop a professional online presence
 - Expand my networking opportunities
@@ -117,17 +91,25 @@ This list sums up to → **GROW** or **LAUNCH** their businesses or even **GROW*
 
 ### **User Stories:**
 "As a (type of user), I want to (perfom some task) so that I can (achieve some goal)."
+
+**Target Audience:**
 - As an **Entrepreneur/Solopreneur**, I want to **register** to Effie's **online workshop** so that I can boost my business' monthly sales (achieve some goal).
 - As a **Tech Startup**, I want to **use** Effie's **free resources** so that we can create a robust Digital Marketing strategy.
 - As a **SME**, I want to **book** a **free consultaiton** with Effie so that we can increase my business' online presence and engagement. 
 - As a **Non-Profits**, I want to **contact** Effie for a **collaboration** and **consulting** so that we can grow the organization organically.  
-- As a **Mentee**, I want to **apply** too her **mentorship program** so that I can get the proper guidance for my professional career.
-- As an **Entry-Level Professional**, I want to **join** the **networking community** so that I can land my first full-time job faster.
+- As a **Mentee**, I want to **apply** to her **mentorship program** so that I can get the proper guidance for my professional career.
+- As an **Entry-Level Professional**, I want to **join** her **networking community** so that I can land my first full-time job faster through contacts.
 - As a **Recent Graduate**, I want to **consume** Effie's **free training resources** so that I can launch my business idea.
+
+**Type of Visitors:**
+- As a **First Time Visitor**, I want to know who she is and what she does so that I can evaluate if I need her to grow my business.
+- As a **First Time Visitor**, I want to make sure this site is not a scam so that I can use these resources and services to increase my client base.
+
+- As a **Returning Visitor**, I want to contact Effie... 
 
 These are just some of the user stories that were created for this project. However, not all of these will be met due to an important reduction of the initial scope.
 
-### **USP / Core Differentiators:**
+### **Unique Selling Proposition (USP) | Core Differentiators:**
 
 **Service:**
 - International experience working at tech startups, SMEs, and multinational corporations.
@@ -249,7 +231,9 @@ Eventually, integrations or links to tools like Notion, Miro, Trello, Eventbrite
 
 ## **1.3. Structure Plane** 
 
-The current structure of the website is the following:
+### **Website Structure**
+
+At the moment, the website consists in only one page containing various sections, one after the other. The **current structure** of the website is the following:
 
 |HOME|ABOUT|SERVICES|TRAINING|TESTIMONIALS|CONTACT|
 |--|----|-----|---|---|---|
@@ -260,7 +244,7 @@ The current structure of the website is the following:
 
 > Besides the 'Footer' section, which goes after the 'Contact Me' section.
 
-At the moment, the website consists in only one page containing various sections shown one under the other.
+### **Planned Structure**
 
 The **intended structure** of the website for the **MVP** was the following:
 
@@ -279,7 +263,9 @@ The **intended structure** of the website for the **MVP** was the following:
 (**) Services fields  
 (^) Summary of all the recommended types of resources 
 
-Unfortunately, the **scope** had to be reduced and adjusted due to the lack of resources, which the most important was **time**, and then **knowledge** to develop some sections and complex features.
+Unfortunately, the **scope** had to be reduced and adjusted due to a lack of resources, which the most vital was **time**, and then **knowledge** to develop some sections and complex features.
+
+### **Future Additions**
 
 The sections that will be added in the near future are the following:
 
@@ -352,11 +338,23 @@ The following styling has been used for consistency and alignment throughout the
 .paragraphs {
     font-family: Poppins, Helvetica, sans-serif;
     font-size: 16px;
-    letter-spacing: 1px;
 }
 ```
 
-### **Colours**
+- **CTA Buttons Text:**
+
+```CSS
+/* CTA Buttons Text Styling */
+.paragraphs {
+    font-family: Poppins, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+```
+
+### **Color Scheme**
 
 According to an article on **[The Science of Colour Persuasion](https://idealogicbrandlab.com/color-persuasion/)** by **IDealogic® Brand Lab**:
 
@@ -398,40 +396,46 @@ The following technology was used during the development and testing of this pro
 - **CSS3** to style the elements within each page.
 
 ### **Workspaces, Version Control, Respository Hosting**
-- Store Repositories → **[GitHub](https://github.com/)**
-- Main Workspace → **[Gitpod](https://www.gitpod.io/)**
-- Version Control → **[Git](https://git-scm.com/)**
+- Store Repositories → [GitHub](https://github.com/)
+- Main Workspace → [Gitpod](https://www.gitpod.io/)
+- Version Control → [Git](https://git-scm.com/)
 
 ### **Frameworks & Libraries**
-- Frameworks → **[Bootstrap V4.2.1](https://getbootstrap.com/)**
-- Fonts → **[Google Fonts](https://fonts.google.com/)**
-- Icons → **[Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)**
+- Frameworks → [Bootstrap V4.2.1](https://getbootstrap.com/)
+- Fonts → [Google Fonts](https://fonts.google.com/)
+- Icons → [Font Awesome V4.7.0](https://fontawesome.com/v4.7.0/icons/)
 
-### **Development Proccess**
-- CSS Tricks → **[CSS Tricks](https://css-tricks.com/)**
-- CSS/HTML Consultations → **[W3Schools](www.w3schools.com)**
-- Beautify HTML → **[Web Formatter](https://webformatter.com/html)**
-- Beautify CSS → **[Free Formatter](https://www.freeformatter.com/css-beautifier.html)**
-- Hex to RGB → **[RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)**
+### **Coding Consultations**
+- Git Commit Messages → [Chris Beams - How to Write a Git Commit Message](https://chris.beams.io/posts/git-commit/)
+- CSS Tricks → [CSS Tricks](https://css-tricks.com/)
+- CSS/HTML Consultations → [W3Schools](www.w3schools.com)
+- Beautify HTML → [Web Formatter](https://webformatter.com/html)
+- Beautify CSS → [Free Formatter](https://www.freeformatter.com/css-beautifier.html)
+- Hex to RGB → [RapidTables](https://www.rapidtables.com/convert/color/hex-to-rgb.html)
+- Hover Effects → [Hover.css](https://ianlunn.github.io/Hover/)
+- Website Icon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
+- Favicon → [W3C](https://www.w3.org/2005/10/howto-favicon) 
 
 ### **Testing**
-- Test/Fix Code → **[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)**
-- Website Responsiveness → **[Responsive viewer](https://www.producthunt.com/posts/responsive-viewer)**
-- Website Performance → **[Google Lighthouse](https://developers.google.com/web/tools/lighthouse)**
-- Validate HTML → **[W3C HTML Validator](https://validator.w3.org/)**
-- Validate CSS → **[W3C CSS Validator](https://jigsaw.w3.org/css-validator/)**
+- Test/Fix Code → [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+- Website Responsiveness → [Responsive viewer](https://www.producthunt.com/posts/responsive-viewer)
+- Website Performance → [Google Lighthouse](https://developers.google.com/web/tools/lighthouse)
+- Validate HTML → [W3C HTML Validator](https://validator.w3.org/)
+- Validate CSS → [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
 
-### **Other Technology**
-- Mockup → **[Responsive Design](http://ami.responsivedesign.is/)**
-- Mockup → **[Techsini Mockup Generator](http://techsini.com/multi-mockup/)**
-- Unicode → **[Cool Symbol](https://coolsymbol.com/)**
-- Illustrations → **[UnDraw](https://undraw.co/)**
-- Photography → **[Unsplash](https://unsplash.com/)**
-- Wireframing → **[Balsamiq](https://balsamiq.com/)**
-- Planning → **[Miro](https://miro.com/)**
-- Visuals → **[Canva](https://www.canva.com/)**
-- Colour Scheme → **[Coolors](https://coolors.co/)**
-- Shapes & Diagrams → **[Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)**
+### **Other Technologies**
+- Mockup → [Responsive Design](http://ami.responsivedesign.is/)
+- Mockup → [Techsini Mockup Generator](http://techsini.com/multi-mockup/)
+- Unicode → [Cool Symbol](https://coolsymbol.com/)
+- Illustrations → [UnDraw](https://undraw.co/)
+- Photography → [Unsplash](https://unsplash.com/)
+- Wireframing → [Balsamiq](https://balsamiq.com/)
+- Planning → [Miro](https://miro.com/)
+- Visuals → [Canva](https://www.canva.com/)
+- Colour Scheme → [Coolors](https://coolors.co/)
+- Shapes & Diagrams → [Google Drawing](https://chrome.google.com/webstore/detail/google-drawings/mkaakpdehdafacodkgkpghoibnmamcme)
+- https://crop-circle.imageonline.co/
+https://stackoverflow.com/questions/10422949/css-background-opacity
 
 # **Testing**  
 
@@ -441,7 +445,7 @@ The following technology was used during the development and testing of this pro
 ### **Testing Performance (Google Lighthouse)**
 ### **HTML & CSS Validation**
 
-The entire **testing process** and **results** can be found here.
+The entire testing process, issues and bugs found, solutions, and final results can be found here.
 
 # **Credits** 
 
@@ -453,10 +457,11 @@ The entire **testing process** and **results** can be found here.
 
 ### **Code**
 
+- [Code Institute Gitpod Full Template](https://github.com/Code-Institute-Org/gitpod-full-template) with preinstalled  tools
 - XXXX
 - XXXX
 - XXXX
-- XXXX
+- Website Icon → [Geeks For Geeks](https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/) 
 
 ### **Media**
 
@@ -465,19 +470,15 @@ The entire **testing process** and **results** can be found here.
 
 **'About Me' Section:**
 - [Background Image](https://www.jciireland.ie/) by XXXX taken from [Unsplash](https://unsplash.com/)
-- https://unsplash.com/photos/73FOXT1DvjI
-- https://unsplash.com/photos/sCYqkY_Lmpo
-- https://unsplash.com/photos/Yrqyn1Gb80k
+- Llama https://unsplash.com/photos/73FOXT1DvjI
+- Islas Ballestas https://unsplash.com/photos/sCYqkY_Lmpo
+- Miraflores Malecon https://unsplash.com/photos/Yrqyn1Gb80k
 - https://unsplash.com/photos/4hMET7vYTAQ
-- https://unsplash.com/photos/lvowu4IK6Mc
-- https://unsplash.com/photos/hZFXVjeS73A
-- https://unsplash.com/photos/mZKEIRBStv4
+- Lima Ciudad Mar https://unsplash.com/photos/lvowu4IK6Mc 
 - https://unsplash.com/photos/Ef32LHjkw64
-- https://unsplash.com/photos/9OmvI29U8bk
-- https://unsplash.com/photos/zs8bpXW3OuM
 - https://unsplash.com/photos/sDRNwsezLU8
 - https://unsplash.com/photos/WVC6iAZHP0k
-- https://unsplash.com/photos/dZgMUPACJzQ
+- cusco mp right https://unsplash.com/photos/dZgMUPACJzQ
 
 **'How Can I Help' Section:**
 - Illustration taken from [UnDraw](https://undraw.co/) and modified to match the website and brand colours.
